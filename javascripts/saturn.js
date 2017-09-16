@@ -16,17 +16,17 @@ function outputTo(domElement) {
 	let satDom = "";
 	satDom += `<div class="planet-card">`;
 	satDom +=		`<div class="planet-header">`;
-  	satDom += 		`<h2>${saturn.name}</h2>`;
+  	satDom += 			`<h2>${saturn.name}</h2>`;
   	satDom +=		`</div>`;
   	satDom +=		`<div class="planet-info">`;
-  	satDom += 		`<h3>Adjectives: ${saturn.adjectives}</h3>`;
-  	satDom += 		`<h3>Discovered: ${saturn.yearDiscovered}</h3>`;
-  	satDom += 		`<h3>Radius: ${saturn.radius}</h3>`;
-  	satDom += 		`<h3>Distance From Sun: ${saturn.distFromSun}</h3>`;
-  	satDom += 		`<h3>Length Of Day: ${saturn.dayLength}</h3>`;
-	satDom += 		`<h3>Atmosphere Composition: ${saturn.atmosComp}</h3>`; 
-	satDom += 		`<h3>Satellites: ${saturn.satellites}</h3>`; 
-	satDom += 		`<h3>Visitors: ${saturn.visitors}</h3>`; 
+  	satDom += 			`<h3>Adjectives: ${saturn.adjectives}</h3>`;
+  	satDom += 			`<h3>Discovered: ${saturn.yearDiscovered}</h3>`;
+  	satDom += 			`<h3>Radius: ${saturn.radius}</h3>`;
+  	satDom += 			`<h3>Distance From Sun: ${saturn.distFromSun}</h3>`;
+  	satDom += 			`<h3>Length Of Day: ${saturn.dayLength}</h3>`;
+	satDom += 			`<h3>Atmosphere Composition: ${saturn.atmosComp}</h3>`; 
+	satDom += 			`<h3>Satellites: ${saturn.satellites}</h3>`; 
+	satDom += 			`<h3>Visitors: ${saturn.visitors}</h3>`; 
 	satDom +=		`</div>`;
 	satDom += `</div>`; 	
 

@@ -16,17 +16,17 @@ function outputTo(domElement) {
 	let venDom = "";
 	venDom += `<div class="planet-card">`;
 	venDom +=		`<div class="planet-header">`;
-  	venDom += 		`<h2>${venus.name}</h2>`;
+  	venDom += 			`<h2>${venus.name}</h2>`;
   	venDom +=		`</div>`;
   	venDom +=		`<div class="planet-info">`;
-  	venDom += 		`<h3>Adjectives: ${venus.adjectives}</h3>`;
-  	venDom += 		`<h3>Discovered: ${venus.yearDiscovered}</h3>`;
-  	venDom += 		`<h3>Radius: ${venus.radius}</h3>`;
-  	venDom += 		`<h3>Distance From Sun: ${venus.distFromSun}</h3>`;
-  	venDom += 		`<h3>Length Of Day: ${venus.dayLength}</h3>`;
-	venDom += 		`<h3>Atmosphere Composition: ${venus.atmosComp}</h3>`; 
-	venDom += 		`<h3>Satellites: ${venus.satellites}</h3>`; 
-	venDom += 		`<h3>Visitors: ${venus.visitors}</h3>`; 
+  	venDom += 			`<h3>Adjectives: ${venus.adjectives}</h3>`;
+  	venDom += 			`<h3>Discovered: ${venus.yearDiscovered}</h3>`;
+  	venDom += 			`<h3>Radius: ${venus.radius}</h3>`;
+  	venDom += 			`<h3>Distance From Sun: ${venus.distFromSun}</h3>`;
+  	venDom += 			`<h3>Length Of Day: ${venus.dayLength}</h3>`;
+	venDom += 			`<h3>Atmosphere Composition: ${venus.atmosComp}</h3>`; 
+	venDom += 			`<h3>Satellites: ${venus.satellites}</h3>`; 
+	venDom += 			`<h3>Visitors: ${venus.visitors}</h3>`; 
 	venDom +=		`</div>`;
 	venDom += `</div>`; 	
 

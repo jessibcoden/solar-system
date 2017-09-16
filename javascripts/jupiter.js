@@ -16,17 +16,17 @@ function outputTo(domElement) {
 	let jupDom = "";
 	jupDom += `<div class="planet-card">`;
 	jupDom +=		`<div class="planet-header">`;
-  	jupDom += 		`<h2>${jupiter.name}</h2>`;
+  	jupDom += 			`<h2>${jupiter.name}</h2>`;
   	jupDom +=		`</div>`;
   	jupDom +=		`<div class="planet-info">`;
-  	jupDom += 		`<h3>Adjectives: ${jupiter.adjectives}</h3>`;
-  	jupDom += 		`<h3>Discovered: ${jupiter.yearDiscovered}</h3>`;
-  	jupDom += 		`<h3>Radius: ${jupiter.radius}</h3>`;
-  	jupDom += 		`<h3>Distance From Sun: ${jupiter.distFromSun}</h3>`;
-  	jupDom += 		`<h3>Length Of Day: ${jupiter.dayLength}</h3>`;
-	jupDom += 		`<h3>Atmosphere Composition: ${jupiter.atmosComp}</h3>`; 
-	jupDom += 		`<h3>Satellites: ${jupiter.satellites}</h3>`; 
-	jupDom += 		`<h3>Visitors: ${jupiter.visitors}</h3>`; 
+  	jupDom += 			`<h3>Adjectives: ${jupiter.adjectives}</h3>`;
+  	jupDom += 			`<h3>Discovered: ${jupiter.yearDiscovered}</h3>`;
+  	jupDom += 			`<h3>Radius: ${jupiter.radius}</h3>`;
+  	jupDom += 			`<h3>Distance From Sun: ${jupiter.distFromSun}</h3>`;
+  	jupDom += 			`<h3>Length Of Day: ${jupiter.dayLength}</h3>`;
+	jupDom += 			`<h3>Atmosphere Composition: ${jupiter.atmosComp}</h3>`; 	
+	jupDom += 			`<h3>Satellites: ${jupiter.satellites}</h3>`; 
+	jupDom += 			`<h3>Visitors: ${jupiter.visitors}</h3>`; 
 	jupDom +=		`</div>`;
 	jupDom += `</div>`; 	
 
