@@ -16,17 +16,17 @@ function outputTo(domElement) {
 	let mercDom = "";
 	mercDom += `<div class="planet-card">`;
 	mercDom +=		`<div class="planet-header">`;
-  	mercDom += 		`<h2>${mercury.name}</h2>`;
+  	mercDom += 			`<h2>${mercury.name}</h2>`;
   	mercDom +=		`</div>`;
   	mercDom +=		`<div class="planet-info">`;
-  	mercDom += 		`<h3>Adjectives: ${mercury.adjectives}</h3>`;
-  	mercDom += 		`<h3>Discovered: ${mercury.yearDiscovered}</h3>`;
-  	mercDom += 		`<h3>Radius: ${mercury.radius}</h3>`;
-  	mercDom += 		`<h3>Distance From Sun: ${mercury.distFromSun}</h3>`;
-  	mercDom += 		`<h3>Length Of Day: ${mercury.dayLength}</h3>`;
-	mercDom += 		`<h3>Atmosphere Composition: ${mercury.atmosComp}</h3>`; 
-	mercDom += 		`<h3>Satellites: ${mercury.satellites}</h3>`; 
-	mercDom += 		`<h3>Visitors: ${mercury.visitors}</h3>`; 
+  	mercDom += 			`<h3>Adjectives: ${mercury.adjectives}</h3>`;
+  	mercDom += 			`<h3>Discovered: ${mercury.yearDiscovered}</h3>`;
+  	mercDom += 			`<h3>Radius: ${mercury.radius}</h3>`;
+  	mercDom += 			`<h3>Distance From Sun: ${mercury.distFromSun}</h3>`;
+  	mercDom += 			`<h3>Length Of Day: ${mercury.dayLength}</h3>`;
+	mercDom += 			`<h3>Atmosphere Composition: ${mercury.atmosComp}</h3>`; 
+	mercDom += 			`<h3>Satellites: ${mercury.satellites}</h3>`; 
+	mercDom += 			`<h3>Visitors: ${mercury.visitors}</h3>`; 
 	mercDom +=		`</div>`;
 	mercDom += `</div>`; 	
 

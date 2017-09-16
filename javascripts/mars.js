@@ -16,17 +16,17 @@ function outputTo(domElement) {
 	let marsDom = "";
 	marsDom += `<div class="planet-card">`;
 	marsDom +=		`<div class="planet-header">`;
-  	marsDom += 		`<h2>${mars.name}</h2>`;
+  	marsDom += 			`<h2>${mars.name}</h2>`;
   	marsDom +=		`</div>`;
   	marsDom +=		`<div class="planet-info">`;
-  	marsDom += 		`<h3>Adjectives: ${mars.adjectives}</h3>`;
-  	marsDom += 		`<h3>Discovered: ${mars.yearDiscovered}</h3>`;
-  	marsDom += 		`<h3>Radius: ${mars.radius}</h3>`;
-  	marsDom += 		`<h3>Distance From Sun: ${mars.distFromSun}</h3>`;
-  	marsDom += 		`<h3>Length Of Day: ${mars.dayLength}</h3>`;
-	marsDom += 		`<h3>Atmosphere Composition: ${mars.atmosComp}</h3>`; 
-	marsDom += 		`<h3>Satellites: ${mars.satellites}</h3>`; 
-	marsDom += 		`<h3>Visitors: ${mars.visitors}</h3>`; 
+  	marsDom += 			`<h3>Adjectives: ${mars.adjectives}</h3>`;
+  	marsDom += 			`<h3>Discovered: ${mars.yearDiscovered}</h3>`;
+  	marsDom += 			`<h3>Radius: ${mars.radius}</h3>`;
+  	marsDom += 			`<h3>Distance From Sun: ${mars.distFromSun}</h3>`;
+  	marsDom += 			`<h3>Length Of Day: ${mars.dayLength}</h3>`;
+	marsDom += 			`<h3>Atmosphere Composition: ${mars.atmosComp}</h3>`; 
+	marsDom += 			`<h3>Satellites: ${mars.satellites}</h3>`; 
+	marsDom += 			`<h3>Visitors: ${mars.visitors}</h3>`; 
 	marsDom +=		`</div>`;
 	marsDom += `</div>`; 	
 
