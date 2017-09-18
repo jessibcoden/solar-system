@@ -12,9 +12,11 @@ const mars = {
 	"visitors": "Matt Damon"
 };
 
+let marsDom = '';
+
 function outputTo(domElement) {
 	let marsDom = "";
-	marsDom += `<div class="planet-card">`;
+	marsDom += `<div class="col-md-6 col-md-offset-3 planet-card">`;
 	marsDom +=		`<div class="planet-header">`;
   	marsDom += 			`<h2>${mars.name}</h2>`;
   	marsDom +=		`</div>`;
@@ -30,7 +32,7 @@ function outputTo(domElement) {
 	marsDom +=		`</div>`;
 	marsDom += `</div>`; 	
 
-  domElement.innerHTML += marsDom;
+   return marsDom;
 }
 
 module.exports = outputTo;

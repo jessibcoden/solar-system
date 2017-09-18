@@ -12,9 +12,11 @@ const jupiter = {
 	"visitors": "Pioneer 10 & 11, Voyager 1 & 2, Galileo, Ulysses, Cassini, New Horizon, Juno"
 };
 
+let jupDom = '';
+
 function outputTo(domElement) {
 	let jupDom = "";
-	jupDom += `<div class="planet-card">`;
+	jupDom += `<div class="col-md-6 col-md-offset-3 planet-card">`;
 	jupDom +=		`<div class="planet-header">`;
   	jupDom += 			`<h2>${jupiter.name}</h2>`;
   	jupDom +=		`</div>`;
@@ -30,7 +32,7 @@ function outputTo(domElement) {
 	jupDom +=		`</div>`;
 	jupDom += `</div>`; 	
 
-  domElement.innerHTML += jupDom;
+  	return jupDom;
 }
 
 module.exports = outputTo;
