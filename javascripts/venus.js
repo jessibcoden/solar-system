@@ -12,9 +12,11 @@ const venus = {
 	"visitors": "United States Mariner 10, Russian Venera 9"
 };
 
+let venDom = '';
+
 function outputTo(domElement) {
 	let venDom = "";
-	venDom += `<div class="planet-card">`;
+	venDom += `<div class="col-md-6 col-md-offset-3 planet-card">`;
 	venDom +=		`<div class="planet-header">`;
   	venDom += 			`<h2>${venus.name}</h2>`;
   	venDom +=		`</div>`;
@@ -30,7 +32,7 @@ function outputTo(domElement) {
 	venDom +=		`</div>`;
 	venDom += `</div>`; 	
 
-  domElement.innerHTML += venDom;
+  	return venDom;
 }
 
 module.exports = outputTo;

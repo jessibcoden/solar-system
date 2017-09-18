@@ -12,9 +12,11 @@ const earth = {
 	"visitors": "Wonder Woman, Super Man"
 };
 
+let earthDom = '';
+
 function outputTo(domElement) {
 	let earthDom = "";
-	earthDom += `<div class="planet-card">`;
+	earthDom += `<div class="col-md-6 col-md-offset-3 planet-card">`;
 	earthDom +=		`<div class="planet-header">`;
   	earthDom += 		`<h2>${earth.name}</h2>`;
   	earthDom +=		`</div>`;
@@ -30,7 +32,7 @@ function outputTo(domElement) {
 	earthDom +=		`</div>`;
 	earthDom += `</div>`;
 
-  domElement.innerHTML += earthDom;
+  	return earthDom;
 }
 
 module.exports = outputTo;

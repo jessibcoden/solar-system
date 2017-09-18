@@ -12,9 +12,11 @@ const saturn = {
 	"visitors": "Pioneer 10 & 11, Voyager 1 & 2, Galileo, Ulysses, Cassini, New Horizon, Juno"
 };
 
+let satDom = '';
+
 function outputTo(domElement) {
 	let satDom = "";
-	satDom += `<div class="planet-card">`;
+	satDom += `<div class="col-md-6 col-md-offset-3 planet-card">`;
 	satDom +=		`<div class="planet-header">`;
   	satDom += 			`<h2>${saturn.name}</h2>`;
   	satDom +=		`</div>`;
@@ -30,7 +32,7 @@ function outputTo(domElement) {
 	satDom +=		`</div>`;
 	satDom += `</div>`; 	
 
-  domElement.innerHTML += satDom;
+  	return satDom;
 }
 
 module.exports = outputTo;

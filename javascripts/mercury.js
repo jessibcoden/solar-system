@@ -12,9 +12,11 @@ const mercury = {
 	"visitors": "United States' Mariner 10"
 };
 
+let mercDom = '';
+
 function outputTo(domElement) {
 	let mercDom = "";
-	mercDom += `<div class="planet-card">`;
+	mercDom += `<div class="col-md-6 col-md-offset-3 planet-card">`;
 	mercDom +=		`<div class="planet-header">`;
   	mercDom += 			`<h2>${mercury.name}</h2>`;
   	mercDom +=		`</div>`;
@@ -28,9 +30,9 @@ function outputTo(domElement) {
 	mercDom += 			`<h3>Satellites: ${mercury.satellites}</h3>`; 
 	mercDom += 			`<h3>Visitors: ${mercury.visitors}</h3>`; 
 	mercDom +=		`</div>`;
-	mercDom += `</div>`; 	
+	mercDom += `</div>`; 
 
-  domElement.innerHTML += mercDom;
+	return mercDom;
 }
 
 module.exports = outputTo;

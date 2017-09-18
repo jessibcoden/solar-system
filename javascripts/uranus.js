@@ -12,9 +12,11 @@ const uranus = {
 	"visitors": "Voyager 2, closest approach in 1986"
 };
 
+let uraDom = '';
+
 function outputTo(domElement) {
 	let uraDom = "";
-	uraDom += `<div class="planet-card">`;
+	uraDom += `<div class="col-md-6 col-md-offset-3 planet-card">`;
 	uraDom +=		`<div class="planet-header">`;
   	uraDom += 			`<h2>${uranus.name}</h2>`;
   	uraDom +=		`</div>`;
@@ -30,7 +32,7 @@ function outputTo(domElement) {
 	uraDom +=		`</div>`;
 	uraDom += `</div>`; 	
 
-  domElement.innerHTML += uraDom;
+   	return uraDom;
 }
 
 module.exports = outputTo;

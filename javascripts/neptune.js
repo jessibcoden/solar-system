@@ -12,9 +12,11 @@ const neptune = {
 	"visitors": "Voyager 2 has been the only man-made probe to approach Neptune"
 };
 
+let nepDom = '';
+
 function outputTo(domElement) {
 	let nepDom = "";
-	nepDom += `<div class="planet-card">`;
+	nepDom += `<div class="col-md-6 col-md-offset-3 planet-card">`;
 	nepDom +=		`<div class="planet-header">`;
   	nepDom += 			`<h2>${neptune.name}</h2>`;
   	nepDom +=		`</div>`;
@@ -30,7 +32,7 @@ function outputTo(domElement) {
 	nepDom +=		`</div>`;
 	nepDom += `</div>`; 	
 
-  domElement.innerHTML += nepDom;
+  	return nepDom;
 }
 
 module.exports = outputTo;
