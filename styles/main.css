@@ -1,5 +1,6 @@
 body {
-	background-color: slateblue;
+	background-color: #0C0040;
+	color: #FFB800;
 }
 
 .planet-card {
@@ -12,4 +13,8 @@ body {
 	text-align: center;
 	border-bottom: darkgrey solid 5px;
 	font-size: 1.5em;
+}
+
+#planets-container {
+	display: inline;
 }
